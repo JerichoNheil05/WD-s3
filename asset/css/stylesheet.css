@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(24, 124, 155);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+body {
+
+    padding: 100px 100px;
+}
+
+body.text1 {
+    align-content: center;
+    text-decoration-color: white;
+}
+
+body.button1 {
+    padding: 200px 200px;
+}
+
+
+
