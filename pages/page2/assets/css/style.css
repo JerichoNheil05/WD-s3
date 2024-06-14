@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 30px 30px;
+}
+
+.heading1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+
+.p1{
+    padding: 0px 0px;
+    display: flex;
+    margin-top: 0px;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 148, 170);
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(226, 210, 210, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.header1 img {
+    height: 50px;
+    justify-content: left;
+}
+
+.nav1 {
+    display: flex;
+    gap: 20px;
+}
+
+.nav1 a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Transparent border for alignment */
+    transition: border 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.header2 {
+    margin-top: 50px;
+    background-color: rgb(5, 148, 170);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.header2 img {
+    height: 50px;
+    margin-bottom: 10px; /* Space between logo and nav */
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav2 a {
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Transparent border for alignment */
+    transition: border 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.header3 {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(5, 148, 170);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+}
+
+.nav3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav3 a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Transparent border for alignment */
+    transition: border 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.header3 img {
+    height: 50px;
+}
+
+
+.header4 {
+    margin-top: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #000046, rgb(5, 148, 170)); /* Gradient background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+    color: white;
+}
+
+.nav4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-grow: 1; 
+}
+
+.nav4 a {
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Transparent border for alignment */
+    transition: border 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.header4 img {
+    height: 50px;
+    margin-left: 20px; /* Space between logo and nav */
+}
+
+.header5 {
+    margin-top: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #000046, rgb(5, 148, 170)); /* Gradient background */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+    color: white;
+}
+
+.nav5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-grow: 1; 
+}
+
+.nav5 a {
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Transparent border for alignment */
+    transition: border 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.header5 img {
+    height: 50px;
+    margin-left: 20px; /* Space between logo and nav */
+}
+
+.heading3{
+    margin-top: 100px;
+}
+
+.header6 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 148, 170);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo6 {
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav6 {
+    display: flex;
+    align-items: center;
+}
+
+.nav6 a {
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav6 a:hover {
+    border-radius: 40px;
+    background-color: #000000;
+    color: #fff; /* Adjust text color on hover if needed */
+    border-radius: 4px;
+}
+
+.nav6 a:active {
+    color: #ddd;
+}
+
+.header7 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 148, 170);
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo7 {
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav7 {
+    display: flex;
+    align-items: center;
+}
+
+.nav7 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav7 a:active {
+    color: #ddd;
+}
+
+.nav7 a::after {
+    content: attr(data-popup);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav7 a:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+.header8 {
+    margin-top: 50px;
+    background-color: rgb(5, 148, 170);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    font-size: 20px;
+    color: white;
+}
+
+.nav8 {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav8 a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative; /* For the popup animation */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav8 a:hover {
+    transform: translateY(-5px); /* Move link up on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.nav8 div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px; /* Space around the logo */
+}
+
+.nav8 img {
+    height: 50px;
+}
+
+.header9 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(5, 148, 170);
+    color: #fff;
+    cursor: pointer;
+}
+
+.header9 img {
+    width: 50px;
+    transition: transform 0.5s, font-weight 0.5s;
+}
+
+.nav9 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.nav9 a:hover {
+    color: #000000; /* Change this to the desired hover color */
+}
+
+/* Animation */
+.header9.animate img {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.header10 {
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(5, 148, 170);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.header10 img {
+    height: 50px;
+    margin-bottom: 10px; /* Space between logo and nav */
+    width:fit-content;
+}
+
+.nav10 {
+    display: flex;
+    align-items: center;
+}
+
+.nav10 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.header10:hover img {
+    animation: pulse 2s forwards; /* Animate once when the header is hovered over */
+}
+
+.nav10:hover a {
+    animation: pulse 2s forwards; /* Animate once when the header is hovered over */
+}
