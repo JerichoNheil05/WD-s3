@@ -5,6 +5,32 @@ body{
     background-color: #000100;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(23, 114, 23);;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #cde6d5;
+    border-color: #000000;
+    color: #000000;
+  }
+
 .heading1{
     margin-top: 20px;
     display:flex;
